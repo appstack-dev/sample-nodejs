@@ -506,7 +506,6 @@ function randomSentence(seed) {
     sentenceG, sentenceH, sentenceI, sentenceJ, sentenceK, sentenceL, sentenceM];
   sentence = sentences[Math.floor(generator.random() * sentences.length)](seed++);
   return sentence.charAt(0).toUpperCase() + sentence.slice(1);
-  // return 'seed: ' + seed + '.';
 }
 
 function randomTitle(seed) {
